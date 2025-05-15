@@ -11,4 +11,4 @@ RUN pip install -r requirements.txt
 COPY . .
 
 # Set entry point
-CMD ["gunicorn", "-b", "0.0.0.0:8080", "app:app"]
+CMD ["gunicorn", "-b", "0.0.0.0:80", "app:app"]
